@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* .sidebar{
+  color: #fff;
+  overflow: hidden;
+  height: 100vh;
+} */
+
+.logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   padding: 10px;
+}
+
+
+
+.logo-icon{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  background:rgba(28, 17, 41, 0.878);
+}
+
+.bot-icon{
+   justify-content: start;
+   margin-left: 3px;
+   padding-right: 0px;
+}
+.logo p {
+margin-left: 10px;
+color: #fff;
+transition: opacity 0.3s ease;
+}
+.custom-menu {
+ height: 88rem;
+ margin-top: 2rem;
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+ font-size: 1rem;
+ position: relative;
+}
+
+.custom-menu .submenu-scroll .ant-menu-sub {
+ max-height: 160px; 
+ overflow-y: auto;
+}
+
+.toggle{
+ margin-left: 15px;
+ margin-bottom: 10px;
+ /* background-color: black; */
+}
+
+/* @media (max-width: 418px){
+.main{
+  background-color: red;
+}
+} */
+
+/* .sidebar {
+width: 250px;  
+} */
+.custom-menu{
+margin: 0%;
+padding-top: 5px;
+}
+* {
+margin: 0;
+padding: 0;
+border: none;
+box-sizing: border-box;
+list-style: none;
+outline: none;
+font-family: "Montserrat", sans-serif;
+}
+
+
+.main{
+transition: margin-left 0.3s ease; /* Smooth transition for margin */
+overflow-x: hidden; /* Prevent horizontal scroll in main content */
+}
+/* Sidebar styles */
+.sidebar {
+position: fixed; /* Keep the sidebar fixed on the left */
+left: 0;
+top: 0;
+bottom: 0;
+height: 100vh;
+background-color: #001529;
+transition: width 0.3s ease; /* Smooth transition for width */
+z-index: 1000; /* Ensure sidebar stays on top */
+}
+
+/* Main content styles */
+.main {
+transition: margin-left 0.3s ease; /* Smooth transition for margin */
+}
+
+.main-content{
+  padding-top: 20px;
+}
+/* For small devices, adjust sidebar and content layout */
+@media (max-width: 768px) {
+.sidebar {
+  width: 80px; /* Sidebar width for small devices */
+}
+
+.main {
+  margin-left: auto; /* Adjust content margin for small devices */
+}
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+.sidebar {
+  width: 60px; /* Sidebar width for extra small devices */
+}
+
+.main {
+  margin-left: auto; /* Adjust content margin */
+}
+}
+
+
+
